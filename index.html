@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Small Hounds</title>
+    <title>SmallHoundLittleHound™ - The Ultimate Hound Experience</title>
+    <meta name="description" content="Explore the world of SmallHoundLittleHound™ with galleries, stories, and more about these fascinating creatures.">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header>
-        <h1>Welcome to the SmallHoundLittleHound™</h1>
+        <h1>Welcome to SmallHoundLittleHound™</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#video-gallery">Videos</a></li>
+                <li><a href="#hound-info">Statistics</a></li>
+                <li><a href="#stories">Stories</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
         <p>Oh teacup hounds so fat and old</p>
     </header>
 
     <main>
         <section id="introduction">
             <h2>The Suspect Hound</h2>
-            <p>Gwaaniel was here, and his hounds are ransacking my house</p>
+            <p>Gwaaniel was here, and his hounds are ransacking my house.</p>
             <img src="zoomedinhound.png" alt="Suspect Hound" class="featured-image">
+            <p>Meet the notorious hound known for its mischievous antics. This little rascal has been spotted in several neighborhoods causing delightful chaos.</p>
         </section>
 
         <hr>
@@ -33,14 +43,25 @@
                 <img src="down.png" alt="Hound Image 5">
                 <img src="download.png" alt="Hound Image 6">
                 <img src="younghound.png" alt="Hound Image 7">
+                <!-- Add more images -->
             </div>
+            <p>Explore our extensive gallery of hounds in various settings and moods. From playful pups to wise old hounds, there's something for every enthusiast.</p>
         </section>
 
         <section id="video-gallery">
             <h2>Hound Video Gallery</h2>
-            <div class="video-placeholder">
-                <p>Coming soon...</p>
+            <div class="video-container">
+                <video width="320" height="240" controls>
+                    <source src="hound_video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video width="320" height="240" controls>
+                    <source src="hound_video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <!-- Add more videos -->
             </div>
+            <p>Watch our hounds in action! From chasing their tails to embarking on grand adventures, these videos capture the essence of SmallHoundLittleHound™.</p>
         </section>
 
         <section id="hound-info">
@@ -51,6 +72,8 @@
                         <th>Hound Type</th>
                         <th>Average Mass</th>
                         <th>Average Number of Teeth</th>
+                        <th>Lifespan</th>
+                        <th>Favorite Activity</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -58,15 +81,79 @@
                         <td>Fat and Old</td>
                         <td>150 kg</td>
                         <td>1</td>
+                        <td>12 years</td>
+                        <td>Sleeping</td>
                     </tr>
+                    <tr>
+                        <td>Young and Spry</td>
+                        <td>50 kg</td>
+                        <td>42</td>
+                        <td>15 years</td>
+                        <td>Chasing squirrels</td>
+                    </tr>
+                    <tr>
+                        <td>Mischievous Pup</td>
+                        <td>30 kg</td>
+                        <td>28</td>
+                        <td>10 years</td>
+                        <td>Stealing socks</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
                 </tbody>
             </table>
+            <p>Our hounds come in all shapes and sizes. Get to know their stats and find out which one is your favorite!</p>
+        </section>
+
+        <section id="stories">
+            <h2>Hound Tales</h2>
+            <article>
+                <h3>The Great Hound Caper</h3>
+                <p>Once upon a time, in a quiet little town, a group of hounds decided it was time for an adventure...</p>
+                <a href="great-hound-caper.html">Read more</a>
+            </article>
+            <article>
+                <h3>The Hound Who Loved Cheese</h3>
+                <p>Meet Cheddar, a hound with an extraordinary passion for all things cheese...</p>
+                <a href="hound-loved-cheese.html">Read more</a>
+            </article>
+            <!-- Add more stories -->
+        </section>
+
+        <section id="testimonials">
+            <h2>What People Are Saying</h2>
+            <blockquote>
+                <p>"SmallHoundLittleHound™ has the most delightful hounds I've ever seen! Their antics always make my day brighter."</p>
+                <cite>- A Happy Visitor</cite>
+            </blockquote>
+            <blockquote>
+                <p>"I can't get enough of the hound stories. They're heartwarming and hilarious!"</p>
+                <cite>- An Avid Reader</cite>
+            </blockquote>
+            <!-- Add more testimonials -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to share your hound stories? We'd love to hear from you!</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
+                <input type="submit" value="Send Message">
+            </form>
         </section>
     </main>
 
     <footer>
-        <p>© 2024 SmallHoundLittleHound. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#privacy-policy">Privacy Policy</a> |
+            <a href="#terms-of-service">Terms of Service</a> |
+            <a href="#sitemap">Sitemap</a>
+        </div>
+        <p>© 2024 SmallHoundLittleHound™. All rights reserved.</p>
     </footer>
 </body>
-
 </html>
